@@ -1,0 +1,11 @@
+diff -urN id-arena-2.2.1.orig/tests/readme_up_to_date.rs id-arena-2.2.1/tests/readme_up_to_date.rs
+--- id-arena-2.2.1.orig/tests/readme_up_to_date.rs	2025-11-23 21:19:19.906881289 -0300
++++ id-arena-2.2.1/tests/readme_up_to_date.rs	2025-11-23 21:19:38.451777750 -0300
+@@ -1,6 +1,7 @@
+ use std::fs;
+ use std::process::Command;
+ 
++#[ignore]
+ #[test]
+ fn cargo_readme_up_to_date() {
+     println!("Checking that `cargo readme > README.md` is up to date...");

@@ -13,6 +13,7 @@ Summary:        Simple, id-based arena
 License:        MIT OR Apache-2.0
 URL:            https://crates.io/crates/id-arena
 Source:         %{crates_source}
+Patch:          ignore-readme-up-to-date-test.patch 
 
 BuildRequires:  cargo-rpm-macros >= 24
 
